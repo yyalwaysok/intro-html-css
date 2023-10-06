@@ -1,0 +1,93 @@
+html{
+    font-size: 62.5%
+}
+
+body {
+    height: 100%;
+    font-family: serif;
+    font-size: 1.8rem;
+    line-height: 1.75em;
+    color: #3A4145;
+    -webkit-font-feature-settings: 'kern' 1;
+}
+
+.site-wrapper {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: pink;
+}
+
+.main {
+    background-color: lightgreen;
+    width: 75%;
+    float: right;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: lightblue;
+    float: left;
+    font-size: 1.4rem;
+    line-height: 1.6em;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+.avatar {
+    width: 118px;
+    border-radius: 100%;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.sidebar li {
+    margin: 0.4em 0;
+    text-align: -webkit-match-parent;
+}
+
+.sidebar footer {
+    margin: 8rem 0 0 0;
+    padding: 1rem 15px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #BBC7CC;
+}
+
+.sidebar a {
+    color: #4A4A4A;
+    transition: color 0.3s ease;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: color;
+}
+
+.sidebar i {
+    margin-right: 10px;
+}
+
+
+.articles {
+    margin-bottom: 10px;
+    background-color: gray;
+    height: 1000px;
+
+}
+
+.previousArticles {
+    margin-bottom: 10px;
+    background-color: lightsalmon;
+    height: 1000px;
+}
+
+
+
